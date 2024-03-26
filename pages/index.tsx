@@ -8,14 +8,7 @@ import { HiOutlineUser } from "react-icons/hi";
 import ButtonCustom from "@/components/ui/customButton";
 import FeedCard from "@/components/ui/cards";
 
-let post = {
-  postID: 'ID1311',
-  UserID: 'UID71889',
-  UserName: 'Sanket Singh',
-  likes: 57,
-  retweets: 21,
-  content: 'This is my first post. Top 3 fav'
-}
+
 export default function Home() {
   return (
     <div>
